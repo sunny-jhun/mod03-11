@@ -326,24 +326,15 @@ form {
 
 /*Mobile Styles*/
 @media only screen and(max-width: 400px){
-.nav{ 
+.nav{
 	display: none;
 	
-	}
+}
 .main{
-	/*width:100%;*/
 	margin-left: 0;
-} 
-.column{
-	float: none;
-	width: 100%;
-	margin-bottom: 5px;
-}
-.gallery .column{
-	float: none;
-	width: 100%;
-	margin-bottom: 5px;
-}
+ }
+
+
 }
 
 /*Tablet Styles*/
@@ -354,7 +345,6 @@ form {
 	
 }
 .main{
-	width: 100%;
 	margin-left: 0;
  }
 }

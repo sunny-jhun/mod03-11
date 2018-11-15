@@ -17,6 +17,7 @@ html {
 	width: 200px;
 	position: fixed;
 	background-image: url(../images/image.jpeg);
+	background-size: cover;
 }
 
 /*.nav:hover ul {
@@ -65,6 +66,7 @@ ul > li:hover > a {
 	/*background-color: lightgrey;*/
 	margin-left: 200px;
 	background-image: url(../images/image8.jpeg);
+	background-size: cover;
 
 
 }
@@ -188,23 +190,32 @@ h1 {
 .services {
 	/*background-color: midnightblue;*/
 	min-height: 100vh;
-	background-image: url(../images/image2.jpg);
+	background-image: url(../images/1.1.jpeg);
+	background-size: cover;
 }
 
 .projects {
 	/*background-color: crimson;*/
 	min-height: 100vh;
 	background-image:url(../images/image6.jpg);
+	background-size: cover;
+
+}
+.proj{
+	border:2px dotted black;
+	background-color: rgba(242, 244, 253, 0.56);
 }
 .gallery {
 	/*background-color: orange;*/
 	min-height: 100vh;
 	background-image:url(../images/image5.jpeg);
+	background-size: cover;
 }
 .footer {
 	background-color: green;
 	min-height: 50px;
 	background-image:url(../images/image6.jpg);
+	background-size: cover;
 }
 
 .nav,
@@ -309,36 +320,38 @@ form {
 
 /*Mobile Styles*/
 @media only screen and(max-width: 400px){
-
- /* nav {
-	height: 100%;
-	width: 200px;
-}
-.main {
+.nav{ 
+	display: none;
 	
-	margin-left: 200px;}
-  }*/
-  .webcontainer{
-    width:100%;
-    min-width:1000px;
-    height:auto;
-} }
+	}
+.main{
+	/*width:100%;*/
+	margin-left: 0;
+} 
+.column{
+	float: none;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.gallery .column{
+	float: none;
+	width: 100%;
+	margin-bottom: 5px;
+}
+}
 
 /*Tablet Styles*/
 
 @media only screen and (min-width: 401px) and (max-width: 960px){
-  /*nav {
-	height: 100%;
-	width: 200px;
-}	
-.main {
+.nav{
+	display: none;
 	
-	margin-left: 200px;}*/
-.webcontainer{
-    width:100%;
-    min-width:1000px;
-    height:auto;
-} }
+}
+.main{
+	width: 100%;
+	margin-left: 0;
+ }
+}
 
 /*Desktop Styles*/
 

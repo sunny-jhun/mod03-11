@@ -8,13 +8,15 @@
 
 html {
 	scroll-behavior: smooth;
+	/*background-image: url(../images/image.jpeg);*/
 }
 
 .nav {
-	background-color: #333;
+	/*background-color: #333;*/
 	height: 100%;
 	width: 200px;
 	position: fixed;
+	background-image: url(../images/image.jpeg);
 }
 
 /*.nav:hover ul {
@@ -29,10 +31,10 @@ ul > li {
 	list-style: none;
 	background-color: lightblue;
 	margin-bottom: 10px;
-	line-height: 48px; /*default font size is 16px. 16 * 3 = 48px*/
+	line-height: 38px; /*default font size is 16px. 16 * 3 = 48px*/
 	text-align: center;
-	border-top-left-radius: 15px;
-	border-bottom-right-radius: 15px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 	background-color: rgba(97,203,217, 0.5);
 	border: 3px solid #333;
 }
@@ -60,15 +62,17 @@ ul > li:hover > a {
 
 
 .main {
-	background-color: lightgrey;
+	/*background-color: lightgrey;*/
 	margin-left: 200px;
+	background-image: url(../images/image8.jpeg);
+
 
 }
 .banner {
 	/*background-color: skyblue;*/
 	height: 100vh;
 	position: relative;
-	background-image: url(../images/bg2.jpg);
+	background-image: url(../images/image8.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -76,7 +80,7 @@ ul > li:hover > a {
 }
 
 h1 {
-	letter-spacing: 2px;
+	letter-spacing: 4px;
 	margin-bottom: 10px;
 	color: rgba(97,203,217, 1);
 	background-color: rgba(0,0,0, 0.75);
@@ -86,7 +90,7 @@ h1 {
 
 .box > p {
 	font-family: 'Raleway', sans-serif;
-	font-size: 12px;
+	font-size: 30px;
 
 }
 
@@ -133,9 +137,10 @@ h1 {
 }
 
 .register {
-	background-color: indianred;
+	/*background-color: indianred;*/
 	min-height: 100vh;
 	position: relative;
+	background-image: url(../images/image3.jpeg);
 }
 
 .register > .down {
@@ -181,21 +186,25 @@ h1 {
 }
 
 .services {
-	background-color: midnightblue;
+	/*background-color: midnightblue;*/
 	min-height: 100vh;
+	background-image: url(../images/image2.jpg);
 }
 
 .projects {
-	background-color: crimson;
+	/*background-color: crimson;*/
 	min-height: 100vh;
+	background-image:url(../images/image6.jpg);
 }
 .gallery {
-	background-color: orange;
+	/*background-color: orange;*/
 	min-height: 100vh;
+	background-image:url(../images/image5.jpeg);
 }
 .footer {
 	background-color: green;
 	min-height: 50px;
+	background-image:url(../images/image6.jpg);
 }
 
 .nav,
@@ -298,7 +307,43 @@ form {
 }
 
 
+/*Mobile Styles*/
+@media only screen and(max-width: 400px){
 
+ /* nav {
+	height: 100%;
+	width: 200px;
+}
+.main {
+	
+	margin-left: 200px;}
+  }*/
+  .webcontainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+} }
+
+/*Tablet Styles*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px){
+  /*nav {
+	height: 100%;
+	width: 200px;
+}	
+.main {
+	
+	margin-left: 200px;}*/
+.webcontainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+} }
+
+/*Desktop Styles*/
+
+@media only screen and (min-width: 961px){
+	}
 
 
 
